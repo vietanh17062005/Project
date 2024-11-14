@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 70%;
+    margin: 30px auto; /* margin để căn giữa */
+    padding: 20px; /* thêm khoảng cách bên trong */
+    background-color: black;
+    border: 1px solid gray;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto; 
+    width: 50%; 
+}
+.main-list {
+
+    padding-left: 20px;
+}
+
+.sub-list {
+    list-style-type: lower-alpha; 
+    padding-left: 20px;
+}
+
+.item {
+    margin: 10px 0; /* khoảng cách giữa các mục chính */
+    padding: 10px;
+    color: pink;
+}
+
+.sub-list li {
+    margin: 5px; /* khoảng cách giữa các mục phụ */
+    padding-left: 15px;
+    color:yellow;
+}
